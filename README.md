@@ -221,3 +221,28 @@
 - 准备现场输入数据进行实时演示
 - 解释不同参数对结果的影响
 - 展示系统的鲁棒性和稳定性
+
+
+# 代码展示
+## 1. 克隆项目
+```
+git@github.com:Guuu16/fatAnalysis.git
+cd fatAnalysis
+
+```
+
+## 2. 创建虚拟环境
+```
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+```
+
+## 3. 安装依赖
+```
+pip install -r requirements.txt
+```
+
+## 4. 运行Web应用
+```
+streamlit run causal_analysis_webapp_eng.py
+```
